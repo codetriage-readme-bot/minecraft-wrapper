@@ -1,6 +1,6 @@
 # Overview #
 
-Wrapper.py is an easy to use Minecraft server wrapper for adding extra functionality into the server without modifying 
+Wrapper.py is an easy to use Minecraft server wrapper for adding extra functionality into the server without modifying
 the server jar file.
 
 It also comes with a relatively simple and straight-forward - yet powerful - plugin API that can be used
@@ -8,6 +8,9 @@ It also comes with a relatively simple and straight-forward - yet powerful - plu
 
 
 We also have a gitter channel: [![Join the chat at https://gitter.im/benbaptist/minecraft-wrapper](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/benbaptist/minecraft-wrapper?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+Start contributing to this open source project with CodeTriage:
+ [![Open Source Helpers](https://www.codetriage.com/benbaptist/minecraft-wrapper/badges/users.svg)](https://www.codetriage.com/benbaptist/minecraft-wrapper)
 
 NOTICE: Wrapper will Accept the minecraft server EULA on your behalf.  Using wrapper means you also accept the EULA, which
 will be set to true in the eula.txt file in your server folder.
@@ -168,7 +171,7 @@ Download the Wrapper.py file and place it in the desired folder.
 
 - Open the wrapper properties file, set the `["General"]["command"]` item to boot the jar file and java start
  options of your choice.
- 
+
 - Wrapper supports having a separate server and wrapper folder.  This is also recommended, although you can simply put
  Wrapper in the same directory with your server.  Examples (item `["General"]["server-directory"]` in the config file):
 
@@ -291,7 +294,7 @@ Check the 'example-plugins' and 'stable-plugins' folders to see some example plu
 __Tip__:
 
 If you want to see more error messages and other useful messages while developing plugins or debugging wrapper,
-look for the logging.json file and make changes to the "console" section:  
+look for the logging.json file and make changes to the "console" section:
 
 ```json
 ...
